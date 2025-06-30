@@ -1,6 +1,6 @@
 import React from 'react'
-
-
+import { LuShoppingCart } from "react-icons/lu";
+import { CiHeart } from "react-icons/ci";
 
 export default function Navbar() {
     const headerLink = [
