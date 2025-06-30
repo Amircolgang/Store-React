@@ -32,9 +32,9 @@ export default function Navbar() {
     return (
         <>
             <div className='w-[100vw] h-[70px] px-[20px]'>
-                <div>
-                    <img className='w-[30px] h-[30px]' src="/public/" alt="توضیح تصویر" />
-                    <ul>
+                <div className='flex gap-[2.5rem]'>
+                    <img className='w-[30px] h-[30px]' src="/public/logo.png" alt="توضیح تصویر" />
+                    <ul className='flex '>
                         {
                             headerLink.map((links) => (
                                 <li>
