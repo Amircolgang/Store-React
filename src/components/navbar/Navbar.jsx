@@ -33,7 +33,7 @@ export default function Navbar() {
         <>
             <div className='w-[100vw] h-[70px] px-[20px]'>
                 <div>
-                    <img className='w-[30px] h-[30px]' src="path/to/image.jpg" alt="توضیح تصویر" />
+                    <img className='w-[30px] h-[30px]' src="/public/" alt="توضیح تصویر" />
                     <ul>
                         {
                             headerLink.map((links) => (
