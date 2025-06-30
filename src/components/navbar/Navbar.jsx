@@ -4,48 +4,50 @@ import { CiHeart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 export default function Navbar() {
     const headerLink = [
-        {   id : 1 ,
-            title : "Women" ,
-        } , 
         {
-            id : 2 ,
-            title : "Men" ,
-        } ,
-        {
-            id : 3 ,
-            title : "Kids" ,
+            id: 1,
+            title: "Women",
         },
         {
-            id : 5 ,
-            title : "Classics" ,
+            id: 2,
+            title: "Men",
         },
         {
-            id : 6 ,
-            title : "Sport" ,
+            id: 3,
+            title: "Kids",
         },
         {
-            id : 7 , 
-            title : "Sale"
+            id: 5,
+            title: "Classics",
+        },
+        {
+            id: 6,
+            title: "Sport",
+        },
+        {
+            id: 7,
+            title: "Sale"
         }
     ]
     return (
-    <>
-        <div className='w-[100vw] h-[70px] px-[20px]'>
-            <div>
-                <ul>
-                    {
-                        headerLink.map((links) => (
-                            <li>
-                                {links.title}
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
-            <div>
+        <>
+            <div className='w-[100vw] h-[70px] px-[20px]'>
+                <div>
+                    <img className='w-[30px] h-[30px  ]' src="path/to/image.jpg" alt="توضیح تصویر" />
+                    <ul>
+                        {
+                            headerLink.map((links) => (
+                                <li>
+                                    {links.title}
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+                <div>
 
+                </div>
             </div>
-        </div>
-    </>
-  )
+        </>
+    )
 }
