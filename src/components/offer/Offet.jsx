@@ -4,7 +4,7 @@ export default function Offet() {
   return (
     <>
         <div className='w-[100vw] py-[12px]'>
-            <span></span>
+            <span>New here? Save 20% with code: YR24</span>
         </div>
     </>
   )
