@@ -21,15 +21,21 @@ export default function Navbar() {
         },
         {
             id : 6 ,
-            title : "Kids" ,
+            title : "Sport" ,
         },
+        {
+            id : 7 , 
+            title : "Sale"
+        }
     ]
     return (
     <>
         <div className='w-[100vw] h-[70px] px-[20px]'>
             <div>
                 <ul>
-
+                    {
+                        headerLink.map((links) => ())
+                    }
                 </ul>
             </div>
             <div>
