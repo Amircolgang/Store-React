@@ -34,7 +34,11 @@ export default function Navbar() {
             <div>
                 <ul>
                     {
-                        headerLink.map((links) => ())
+                        headerLink.map((links) => (
+                            <li>
+                                {links.title}
+                            </li>
+                        ))
                     }
                 </ul>
             </div>
