@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function Offet() {
   return (
-    <div>Offet</div>
+    <>
+        <div className='w-fi'>
+
+        </div>
+    </>
   )
 }
