@@ -5,16 +5,24 @@ import React from 'react'
 export default function Navbar() {
     const headerLink = [
         {   id : 1 ,
-            title : "" ,
+            title : "Women" ,
         } , 
         {
             id : 2 ,
-            title : "" ,
+            title : "Men" ,
         } ,
         {
-            id
-            title : "" ,
-        }
+            id : 3 ,
+            title : "Kids" ,
+        },
+        {
+            id : 5 ,
+            title : "Classics" ,
+        },
+        {
+            id : 6 ,
+            title : "Kids" ,
+        },
     ]
     return (
     <>
