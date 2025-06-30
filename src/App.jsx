@@ -6,15 +6,19 @@ const App = () => {
     },
     {
       id: 2,
-      title: "Hats",
+      title: "Jackets",
     },
     {
       id: 3,
-      title: "Hats",
+      title: "Sneakers",
     },
     {
       id: 4,
-      title: "Hats",
+      title: "Womens",
+    },
+    {
+      id:5,
+      title: "Mens",
     },
   ]
   return (
